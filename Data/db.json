@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "Body": "In React, you want your components to be pure, and free of unpredictable side effects. In React, side effects means your functions or components affecting anything outside of themselves.React expects your functions to be “pure”, e.g. with the same arguments, they have the same results. For this reason it expects to be able to call your hooks twice, and they should have the same result. Even if they have a side-effect like performing an API call, it should cause the same result twice.This is because outside of strict mode, React might run your hooks multiple times anyway, as it breaks the rendering phase up into pieces, and might pause or restart work. The best way to get around this is either to write your components with this in mind, or to explicitly check for when your hook has been ran.",
+      "author": "Waleed",
+      "id": 1
+    },
+    {
+      "title": "Last data at school",
+      "Body": "offering a look directly into the minds of data scientists, as well as tutorials and news. This is the blog of the data science website Kaggle, which hosts data science projects and competitions that challenges data scientists to produce the best models for featured data sets. Organizations can post their data problems with a prize amount and data professionals will enter to solve it. Crowdsourcing ensures that the experiments are innovative and interesting—and offer a lot of perspectives to learn from. Over 200 competitions have run, including high profile ones like improving Microsoft Kinect gesture recognition, improving the search for the Higgs boson at CERN, and the notorious Heritage Health $3 million award for improving predictions regarding which patients will need to visit hospitals. Kaggle’s official blog goes deeper into these competitions, offering interviews with the winners to discuss their approach to solving the data science problems. The blog also features news and tutorials for all levels of data science enthusiasts.",
+      "author": "Ahmed",
+      "id": 2
+    }
+  ]
+}

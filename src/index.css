@@ -1,13 +1,144 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+/*base styles*/
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Quicksand;
+  color: #333;
+}
+.navbar{
+  padding: 20px;
+  display: flex ;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1{
+  color: crimson;
+  font-size: 3rem;
+}
+.navbar .links{
+  margin-left: auto;
+  font-size: 1.5rem;
+}
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  margin-right: 20px;
+}
+.navbar a:hover{
+  color: crimson;
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+
+}
+.navbar .blog{
+  color:white;
+  background-color: crimson;
+  border-radius: 8px;
+  transition-delay: .3s ease;
+}
+.navbar .blog:hover{
+  color: black;
+  background-color: grey;
+}
+/*blog preview list*/
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa ;
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2{
+  font-size: 2rem;
+  color: crimson ;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+/* .blog-list h1{
+  font-size: 2.3rem;
+  position: absolute;
+  left: 400px;
+  top: 130px;
+} */
+
+.blog-details h2{
+  font-size: 2rem ;
+  color: crimson;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.blog-details h1{
+  font-size: 2.2rem;
+  color: red;
+}
+.blog-details p{
+  font-size: 1.2rem;
+}
+.blog-details h3{
+  font-size: 1.2rem;
+  color: brown;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.blog-details div{
+  margin: 20px 0;
+  justify-content: center;
+}
+.blog-details button{
+  background: crimson;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label{
+  text-align: left;
+  display: block;
+}
+.create h1{
+  font-size: 1.5rem;
+  color: crimson;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding:6px 10px ;
+  border:10px 0 ;
+  box-sizing: 1px solid #ddd;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  align-items: center;
+  color: #333;
+}
+.create button{
+  background: crimson;
+  color:#fff ;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
